@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618267600244' stop='1618267604403'>
+    <name>Dynamic Loading Page</name>
+    <title>Dynamic Loading Page</title>
+    <test-cases>
+        <test-case start='1618267600244' status='failed' stop='1618267604402'>
+            <name>wait for the hiddent element to show</name>
+            <title>wait for the hiddent element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618267600247' status='passed' stop='1618267600265'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='45ec50b7-960a-4b62-b0cb-311174429f47-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='fd1ddd92-7133-4caa-ae21-89a469af7472-attachment.json' type='application/json' size='1130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618267600271' status='passed' stop='1618267600283'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9cfaa654-bd73-43fa-8d29-009f49d640de-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='87c51d06-0460-460a-89db-aa648e6a04c0-attachment.json' type='application/json' size='1133'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618267600285' status='passed' stop='1618267604082'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ca94ec80-577b-4bd3-8af6-baa2f389b565-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618267604086' status='passed' stop='1618267604104'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='57644b48-bdb0-404c-b716-13d75d3928e3-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='1f31e527-a093-4256-b13a-8c4e69e311aa-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618267604108' status='passed' stop='1618267604125'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='60b579a5-3c5a-48ef-a7ac-55570e1c86c9-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='c716c308-ce1f-4d2c-93b3-c861739af1f4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618267604127' status='passed' stop='1618267604161'>
+                    <name>POST /session/:sessionId/element/f9cf2846-e1a3-442f-b741-238fbaf07777/click</name>
+                    <title>POST /session/:sessionId/element/f9cf2846-e1a3-442f-b741-238fbaf07777/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618267604168' status='passed' stop='1618267604401'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='54f1e385-ff4b-4bd1-aa1f-6b6141801b67-attachment.png' type='image/png' size='29618'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Hello World!"
+                Received: {"addCommand": [Function anonymous], "emit": [Function bound ], "error": {"error": "no such element", "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"finish h4\"}
+                  (Session info: chrome=89.0.4389.114)", "stacktrace": "Backtrace:
+                	Ordinal0 [0x0065E7D3+124883]
+                	Ordinal0 [0x0065E7B1+124849]
+                	GetHandleVerifier [0x008A8688+193832]
+                	GetHandleVerifier [0x008CC478+340760]
+                	GetHandleVerifier [0x008EEE42+482530]
+                	GetHandleVerifier [0x008E16BA+427354]
+                	GetHandleVerifier [0x008ED6EB+476555]
+                	GetHandleVerifier [0x008E154B+426987]
+                	GetHandleVerifier [0x008C4FFD+310941]
+                	GetHandleVerifier [0x008C5D8E+314414]
+                	GetHandleVerifier [0x008C5D19+314297]
+                	GetHandleVerifier [0x009831EC+1089676]
+                	GetHandleVerifier [0x009817C9+1082985]
+                	GetHandleVerifier [0x009813A3+1081923]
+                	GetHandleVerifier [0x00A7D9FD+2115741]
+                	Ordinal0 [0x007AB82E+1488942]
+                	Ordinal0 [0x00745A7D+1071741]
+                	Ordinal0 [0x0074559B+1070491]
+                	Ordinal0 [0x007454B1+1070257]
+                	Ordinal0 [0x0077FF53+1310547]
+                	BaseThreadInitThunk [0x7730FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47C7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47C4E+238]
+                "}, "isReactElement": false, "overwriteCommand": [Function anonymous], "parent": {"_NOT_FIBER": false, "addCommand": [Function anonymous], "addLocatorStrategy": [Function anonymous], "capabilities": {"acceptInsecureCerts": true, "browserName": "chrome", "browserVersion": "89.0.4389.114", "chrome": {"chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})", "userDataDir": "C:\\Users\\Gio\\AppData\\Local\\Temp\\scoped_dir2352_1194802526"}, "goog:chromeOptions": {"debuggerAddress": "localhost:64794"}, "networkConnectionEnabled": false, "pageLoadStrategy": "normal", "platformName": "windows", "proxy": {}, "setWindowRect": true, "strictFileInteractability": false, "timeouts": {"implicit": 0, "pageLoad": 300000, "script": 30000}, "unhandledPromptBehavior": "dismiss and notify", "webauthn:extension:largeBlob": true, "webauthn:virtualAuthenticators": true}, "config": {"$0": "node_modules\\@wdio\\cli\\bin\\wdio.js", "_": [], "after": [], "afterCommand": [], "afterFeature": [], "afterHook": [], "afterScenario": [], "afterSession": [], "afterStep": [], "afterSuite": [], "afterTest": [[Function bound afterTest]], "autoCompileOpts": {"autoCompile": true, "babelOpts": {}, "tsNodeOpts": {"transpileOnly": true}}, "bail": 0, "baseUrl": "https://the-internet.herokuapp.com/", "before": [], "beforeCommand": [], "beforeFeature": [], "beforeHook": [], "beforeScenario": [], "beforeSession": [], "beforeStep": [], "beforeSuite": [], "beforeTest": [], "connectionRetryCount": 3, "connectionRetryTimeout": 120000, "cucumberFeaturesWithLineNumbers": [], "cucumberOpts": {"timeout": 10000}, "exclude": [], "excludeDriverLogs": [], "execArgv": [], "filesToWatch": [], "framework": "mocha", "ignoredWorkerServices": [], "jasmineOpts": {"defaultTimeoutInterval": 10000}, "logLevel": "info", "logLevels": {}, "maxInstances": 10, "maxInstancesPerCapability": 100, "mochaOpts": {"timeout": 60000, "ui": "bdd"}, "onComplete": [], "onPrepare": [], "onReload": [], "onWorkerStart": [], "outputDir": undefined, "reporterSyncInterval": 100, "reporterSyncTimeout": 5000, "reporters": ["spec", ["allure", {"outputDir": "allure-results"}]], "runner": "local", "runnerEnv": {}, "services": ["chromedriver"], "spec": [".\\test\\specs\\dynamic-loading.e2e.js"], "specFileRetries": 0, "specFileRetriesDeferred": false, "specFileRetriesDelay": 0, "specs": ["C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\test\\specs\\dynamic-loading.e2e.js"], "suites": {}, "waitforInterval": 500, "waitforTimeout": 10000}, "overwriteCommand": [Function anonymous], "sessionId": "acbcd0c729f4dbdce18ccbee8b22c18a"}, "selector": "finish h4", "sessionId": "acbcd0c729f4dbdce18ccbee8b22c18a"}</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Hello World!"
+                Received: {"addCommand": [Function anonymous], "emit": [Function bound ], "error": {"error": "no such element", "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"finish h4\"}
+                  (Session info: chrome=89.0.4389.114)", "stacktrace": "Backtrace:
+                	Ordinal0 [0x0065E7D3+124883]
+                	Ordinal0 [0x0065E7B1+124849]
+                	GetHandleVerifier [0x008A8688+193832]
+                	GetHandleVerifier [0x008CC478+340760]
+                	GetHandleVerifier [0x008EEE42+482530]
+                	GetHandleVerifier [0x008E16BA+427354]
+                	GetHandleVerifier [0x008ED6EB+476555]
+                	GetHandleVerifier [0x008E154B+426987]
+                	GetHandleVerifier [0x008C4FFD+310941]
+                	GetHandleVerifier [0x008C5D8E+314414]
+                	GetHandleVerifier [0x008C5D19+314297]
+                	GetHandleVerifier [0x009831EC+1089676]
+                	GetHandleVerifier [0x009817C9+1082985]
+                	GetHandleVerifier [0x009813A3+1081923]
+                	GetHandleVerifier [0x00A7D9FD+2115741]
+                	Ordinal0 [0x007AB82E+1488942]
+                	Ordinal0 [0x00745A7D+1071741]
+                	Ordinal0 [0x0074559B+1070491]
+                	Ordinal0 [0x007454B1+1070257]
+                	Ordinal0 [0x0077FF53+1310547]
+                	BaseThreadInitThunk [0x7730FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77E47C7E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77E47C4E+238]
+                "}, "isReactElement": false, "overwriteCommand": [Function anonymous], "parent": {"_NOT_FIBER": false, "addCommand": [Function anonymous], "addLocatorStrategy": [Function anonymous], "capabilities": {"acceptInsecureCerts": true, "browserName": "chrome", "browserVersion": "89.0.4389.114", "chrome": {"chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})", "userDataDir": "C:\\Users\\Gio\\AppData\\Local\\Temp\\scoped_dir2352_1194802526"}, "goog:chromeOptions": {"debuggerAddress": "localhost:64794"}, "networkConnectionEnabled": false, "pageLoadStrategy": "normal", "platformName": "windows", "proxy": {}, "setWindowRect": true, "strictFileInteractability": false, "timeouts": {"implicit": 0, "pageLoad": 300000, "script": 30000}, "unhandledPromptBehavior": "dismiss and notify", "webauthn:extension:largeBlob": true, "webauthn:virtualAuthenticators": true}, "config": {"$0": "node_modules\\@wdio\\cli\\bin\\wdio.js", "_": [], "after": [], "afterCommand": [], "afterFeature": [], "afterHook": [], "afterScenario": [], "afterSession": [], "afterStep": [], "afterSuite": [], "afterTest": [[Function bound afterTest]], "autoCompileOpts": {"autoCompile": true, "babelOpts": {}, "tsNodeOpts": {"transpileOnly": true}}, "bail": 0, "baseUrl": "https://the-internet.herokuapp.com/", "before": [], "beforeCommand": [], "beforeFeature": [], "beforeHook": [], "beforeScenario": [], "beforeSession": [], "beforeStep": [], "beforeSuite": [], "beforeTest": [], "connectionRetryCount": 3, "connectionRetryTimeout": 120000, "cucumberFeaturesWithLineNumbers": [], "cucumberOpts": {"timeout": 10000}, "exclude": [], "excludeDriverLogs": [], "execArgv": [], "filesToWatch": [], "framework": "mocha", "ignoredWorkerServices": [], "jasmineOpts": {"defaultTimeoutInterval": 10000}, "logLevel": "info", "logLevels": {}, "maxInstances": 10, "maxInstancesPerCapability": 100, "mochaOpts": {"timeout": 60000, "ui": "bdd"}, "onComplete": [], "onPrepare": [], "onReload": [], "onWorkerStart": [], "outputDir": undefined, "reporterSyncInterval": 100, "reporterSyncTimeout": 5000, "reporters": ["spec", ["allure", {"outputDir": "allure-results"}]], "runner": "local", "runnerEnv": {}, "services": ["chromedriver"], "spec": [".\\test\\specs\\dynamic-loading.e2e.js"], "specFileRetries": 0, "specFileRetriesDeferred": false, "specFileRetriesDelay": 0, "specs": ["C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\test\\specs\\dynamic-loading.e2e.js"], "suites": {}, "waitforInterval": 500, "waitforTimeout": 10000}, "overwriteCommand": [Function anonymous], "sessionId": "acbcd0c729f4dbdce18ccbee8b22c18a"}, "selector": "finish h4", "sessionId": "acbcd0c729f4dbdce18ccbee8b22c18a"}
+                    at Context.&lt;anonymous> (C:\Users\Gio\Desktop\Projects\Test Automation\test\specs\dynamic-loading.e2e.js:10:28)
+                    at Context.executeSync (C:\Users\Gio\Desktop\Projects\Test Automation\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Gio\Desktop\Projects\Test Automation\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "f9f2c28446e3b1bf",
+  "name" : "Verify list items",
+  "time" : {
+    "start" : 1618269063852,
+    "stop" : 1618269070748,
+    "duration" : 6896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d6af20006f0e34d",
+  "name" : "should logout and verify logout alert message",
+  "time" : {
+    "start" : 1618269073412,
+    "stop" : 1618269073913,
+    "duration" : 501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "581934501c365902",
+  "name" : "wait for the hiddent element to show",
+  "time" : {
+    "start" : 1618269063854,
+    "stop" : 1618269077351,
+    "duration" : 13497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b60c4ecfd358756",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1618269064038,
+    "stop" : 1618269073411,
+    "duration" : 9373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

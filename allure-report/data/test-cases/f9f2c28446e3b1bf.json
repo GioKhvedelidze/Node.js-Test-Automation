@@ -1,0 +1,177 @@
+{
+  "uid" : "f9f2c28446e3b1bf",
+  "name" : "Verify list items",
+  "fullName" : "My Login application.Verify list items",
+  "historyId" : "faf8fe713de1881a9b6634e0704a3714",
+  "time" : {
+    "start" : 1618269063852,
+    "stop" : 1618269070748,
+    "duration" : 6896
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1618269063855,
+        "stop" : 1618269070621,
+        "duration" : 6766
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "917f91e1fd13a5c1",
+        "name" : "Request",
+        "source" : "917f91e1fd13a5c1.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1618269070623,
+        "stop" : 1618269070645,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fa99feda2a11421",
+        "name" : "Request",
+        "source" : "4fa99feda2a11421.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "725c02d9d1dd5938",
+        "name" : "Response",
+        "source" : "725c02d9d1dd5938.json",
+        "type" : "application/json",
+        "size" : 4006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1618269070696,
+        "stop" : 1618269070711,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf19c9192b7ca84a",
+        "name" : "Request",
+        "source" : "bf19c9192b7ca84a.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "720f6ea1354af4ef",
+        "name" : "Response",
+        "source" : "720f6ea1354af4ef.json",
+        "type" : "application/json",
+        "size" : 4006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify list items"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f086ec84b30536a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618267216506,
+        "stop" : 1618267223882,
+        "duration" : 7376
+      }
+    }, {
+      "uid" : "ba1143637b9e96ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618267027465,
+        "stop" : 1618267031702,
+        "duration" : 4237
+      }
+    }, {
+      "uid" : "686007baddb9ed88",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined",
+      "time" : {
+        "start" : 1618266958282,
+        "stop" : 1618266974392,
+        "duration" : 16110
+      }
+    }, {
+      "uid" : "77acc2713543f135",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined",
+      "time" : {
+        "start" : 1618266879440,
+        "stop" : 1618266894040,
+        "duration" : 14600
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9f2c28446e3b1bf.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

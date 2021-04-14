@@ -1,0 +1,183 @@
+{
+  "uid" : "5d6af20006f0e34d",
+  "name" : "should logout and verify logout alert message",
+  "fullName" : "My Login application.should logout and verify logout alert message",
+  "historyId" : "5bb66cb9537f690f5ed756305a9d143f",
+  "time" : {
+    "start" : 1618269073412,
+    "stop" : 1618269073913,
+    "duration" : 501
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618269073412,
+        "stop" : 1618269073423,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "346db0f0a7d1f4c0",
+        "name" : "Request",
+        "source" : "346db0f0a7d1f4c0.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "c19c90c2da5d2261",
+        "name" : "Response",
+        "source" : "c19c90c2da5d2261.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8ca57040-a180-4e4f-9a23-848b0ffedbae/click",
+      "time" : {
+        "start" : 1618269073426,
+        "stop" : 1618269073888,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618269073888,
+        "stop" : 1618269073897,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35886a8f609dc1e6",
+        "name" : "Request",
+        "source" : "35886a8f609dc1e6.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "2899bd80b87dcc68",
+        "name" : "Response",
+        "source" : "2899bd80b87dcc68.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/43a775af-b797-44e4-b95b-66566d5b5d7e/text",
+      "time" : {
+        "start" : 1618269073901,
+        "stop" : 1618269073913,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3645fa39ec3c21f",
+        "name" : "Response",
+        "source" : "d3645fa39ec3c21f.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout and verify logout alert message"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1aaa6fbaddfa1ee5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618266102709,
+        "stop" : 1618266103182,
+        "duration" : 473
+      }
+    }, {
+      "uid" : "9e289f3790a85818",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618261255689,
+        "stop" : 1618261256430,
+        "duration" : 741
+      }
+    }, {
+      "uid" : "436ad7f3cdc8ae5d",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#flash`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - You logged into a secure area!\n                + You logged out of the secure area!\n                + ×",
+      "time" : {
+        "start" : 1618261030673,
+        "stop" : 1618261041500,
+        "duration" : 10827
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d6af20006f0e34d.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

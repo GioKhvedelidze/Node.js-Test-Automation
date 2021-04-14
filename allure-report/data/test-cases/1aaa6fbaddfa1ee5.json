@@ -1,0 +1,156 @@
+{
+  "uid" : "1aaa6fbaddfa1ee5",
+  "name" : "should logout and verify logout alert message",
+  "fullName" : "My Login application.should logout and verify logout alert message",
+  "historyId" : "5bb66cb9537f690f5ed756305a9d143f",
+  "time" : {
+    "start" : 1618266102709,
+    "stop" : 1618266103182,
+    "duration" : 473
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618266102709,
+        "stop" : 1618266102721,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "313479f6663e5897",
+        "name" : "Request",
+        "source" : "313479f6663e5897.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "7f5316ad90c42f24",
+        "name" : "Response",
+        "source" : "7f5316ad90c42f24.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/3f5b8aae-aae0-4d54-922a-845eb57ef434/click",
+      "time" : {
+        "start" : 1618266102723,
+        "stop" : 1618266103158,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618266103158,
+        "stop" : 1618266103167,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96e4821b36b7b08f",
+        "name" : "Request",
+        "source" : "96e4821b36b7b08f.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "3e65e72229e4c8b3",
+        "name" : "Response",
+        "source" : "3e65e72229e4c8b3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/0a03bf9c-a664-4085-b0c2-68e1887378f8/text",
+      "time" : {
+        "start" : 1618266103170,
+        "stop" : 1618266103181,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7130197c38f9281",
+        "name" : "Response",
+        "source" : "c7130197c38f9281.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout and verify logout alert message"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1aaa6fbaddfa1ee5.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

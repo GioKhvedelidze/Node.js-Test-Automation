@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Apr 13 03:11:03 GET 2021","Tue Apr 13 03:11:10 GET 2021","6896","","My Login application","","My Login application","Verify list items","Verify list items",""
+"passed","Tue Apr 13 03:11:13 GET 2021","Tue Apr 13 03:11:13 GET 2021","501","","My Login application","","My Login application","should logout and verify logout alert message","should logout and verify logout alert message",""
+"passed","Tue Apr 13 03:11:04 GET 2021","Tue Apr 13 03:11:13 GET 2021","9373","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Tue Apr 13 03:11:03 GET 2021","Tue Apr 13 03:11:17 GET 2021","13497","","Dynamic Loading Page","","Dynamic Loading Page","wait for the hiddent element to show","wait for the hiddent element to show",""

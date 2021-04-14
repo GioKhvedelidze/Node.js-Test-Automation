@@ -1,0 +1,19 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

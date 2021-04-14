@@ -1,0 +1,139 @@
+{
+  "uid" : "686007baddb9ed88",
+  "name" : "Verify list items",
+  "fullName" : "My Login application.Verify list items",
+  "historyId" : "faf8fe713de1881a9b6634e0704a3714",
+  "time" : {
+    "start" : 1618266958282,
+    "stop" : 1618266974392,
+    "duration" : 16110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\test\\specs\\main.e2e.js:7:30)\n                    at Context.executeSync (C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`ul li`) to be elements array of size\n                \n                Expected: 44\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\test\\specs\\main.e2e.js:7:30)\n                    at Context.executeSync (C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\Gio\\Desktop\\Projects\\Test Automation\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1618266958284,
+        "stop" : 1618266964111,
+        "duration" : 5827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ef5079f9bdc408d",
+        "name" : "Request",
+        "source" : "5ef5079f9bdc408d.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1618266964113,
+        "stop" : 1618266964131,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b576a4cbb785556e",
+        "name" : "Request",
+        "source" : "b576a4cbb785556e.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "117d2fcd75515047",
+        "name" : "Response",
+        "source" : "117d2fcd75515047.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1618266974144,
+        "stop" : 1618266974391,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f2c045a487ee5d7",
+        "name" : "Screenshot",
+        "source" : "6f2c045a487ee5d7.png",
+        "type" : "image/png",
+        "size" : 64281
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify list items"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "686007baddb9ed88.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}

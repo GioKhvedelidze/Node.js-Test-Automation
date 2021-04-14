@@ -1,0 +1,141 @@
+{
+  "uid" : "ba1143637b9e96ec",
+  "name" : "Verify list items",
+  "fullName" : "My Login application.Verify list items",
+  "historyId" : "faf8fe713de1881a9b6634e0704a3714",
+  "time" : {
+    "start" : 1618267027465,
+    "stop" : 1618267031702,
+    "duration" : 4237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1618267027467,
+        "stop" : 1618267031583,
+        "duration" : 4116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf121122a625b164",
+        "name" : "Request",
+        "source" : "cf121122a625b164.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1618267031585,
+        "stop" : 1618267031607,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef6399000388f565",
+        "name" : "Request",
+        "source" : "ef6399000388f565.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "79306d28290a6839",
+        "name" : "Response",
+        "source" : "79306d28290a6839.json",
+        "type" : "application/json",
+        "size" : 4006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1618267031655,
+        "stop" : 1618267031669,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53485e0e76704f52",
+        "name" : "Request",
+        "source" : "53485e0e76704f52.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "309bdff36c7377e0",
+        "name" : "Response",
+        "source" : "309bdff36c7377e0.json",
+        "type" : "application/json",
+        "size" : 4006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify list items"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba1143637b9e96ec.json",
+  "parameterValues" : [ "chrome-89.0.4389.114" ]
+}
